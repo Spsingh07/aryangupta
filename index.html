@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="mediaquries.css">
+<body>
+    <nav class="desktop-nav">
+        <div class="logo">Aryan Gupta</div>
+        <div>
+            <ul  class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav class="hamburger-nav">
+        <div class="logo">Aryan Gupta</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon " onclick="showMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="hamburger-links">
+                <li><a href="#about" onclick="showMenu()">About</a></li>
+                <li><a href="#experience" onclick="showMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="showMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="showMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section class="profile">
+        <div class="pic-container">
+            <img src="images/profile-pic.jpg" alt="Profile Picture" class="profile-50">
+        </div>
+
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Aryan Gupta</h1>
+            <p class="section__text__p2">Frontend Developer</p>
+
+            <div class="btn__container">
+                <button class="btn btn__1"><a href="images/CV Resume.pdf">Downlod CV</a></button>
+                <button class="btn btn__2"><a href="#contact">Contact Me</a></button>
+            </div>
+
+            <div class="social__container">
+                <a href="https://github.com/"><img src="images/github.png" alt="github profile"></a>
+                <a href="https://in.linkedin.com/"><img src="images/linkedin.png" alt="linkedin profile"></a>
+                <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram profile"></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="about__text__p1">Want To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="div__container">
+            <div class="pic-container">
+                <img src="images/Profile-pic2.jpg" alt="My Profile picture" class="about__pic">
+            </div>
+
+            <div class=" about__details__container">
+                <div class="about__container">
+                    <div class="details__container">
+                        <img src="images/Experiance.png" alt="Experiance" class="logo2">
+                        <h3>Experiance</h3>
+                        <p>2+ years <br> Frontend development</p>
+                    </div>
+
+                    <div class="details__container">
+                        <img src="images/education.png" alt="Education" class="logo2">
+                        <h3>Education</h3>
+                        <p>B.com Honours<br>CMA Aspirant</p>
+                    </div>
+                </div>
+
+                <div class="text__container">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, quas corporis nesciunt blanditiis harum qui accusamus at voluptates fugit maxime in ipsa consequatur laborum est fuga aliquid? Reprehenderit placeat architecto doloribus ex veritatis? Vitae excepturi sequi libero, rerum qui consequuntur.</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="experience">
+        <p class="experience__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience__details__container">
+            <div class="about__container2">
+                <div class="details__container2">
+                    <h2>Website development</h2>
+                    <div class="artical__container">
+                        <article>
+                            <img src="images/checked.png" alt="Checked Image" class="logo2">
+                            <h3>HTML</h3>
+                            <p>Advanced</p>
+                        </article>
+
+                        <article>
+                            <img src="images/checked.png" alt="Checked Image" class="logo2">
+                            <h3>CSS</h3>
+                            <p>Intermediate</p>
+                        </article>
+
+                        <article>
+                            <img src="images/checked.png" alt="Checked Image" class="logo2">
+                            <h3>JavaScript</h3>
+                            <p>Intermediate</p>
+                        </article>
+                    </div>
+                </div>
+                <div class="details__container2">
+                    <h2>Other Languages</h2>
+                    <div class="artical__container">
+                        <article>
+                            <img src="images/checked.png" alt="Checked Image" class="logo2">
+                            <h3>C</h3>
+                            <p>Advanced</p>
+                        </article>
+
+                        <article>
+                            <img src="images/checked.png" alt="Checked Image" class="logo2">
+                            <h3>DSA</h3>
+                            <p>Intermediate</p>
+                        </article>
+
+                        <article>
+                            <img src="images/checked.png" alt="Checked Image" class="logo2">
+                            <h3>Java</h3>
+                            <p>Basic</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <p class="projects__p1">Explore My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="projects__details__section">
+            <div class="details__section">
+                <div class="projects__section">
+                    <div class="artical__container">
+                        <img src="images/Apple Project1.jpg" alt="Demo Apple Website">
+                    </div>
+                    <h2 class="project__sub__title">Apple</h2>
+                   
+                    <button class="btn btn_project btn__1"><a href="https://spsingh07.github.io/Apple-Demo/">Live Demo</a></button>
+                   
+                </div>
+                <div class="projects__section">
+                    <div class="artical__container">
+                        <img src="images/momo Shop.png" alt="Bhalo Momo Website">
+                    </div>
+                    <h2 class="project__sub__title">Momo</h2>
+                   
+                    <button class="btn btn_project btn__1"><a href="https://spsingh07.github.io/Bhalo-momo/">Live Demo</a></button>
+                    
+                </div>
+                <div class="projects__section">
+                    <div class="artical__container">
+                        <img src="images/guess my number.png" alt="Guess My Number Website">
+                    </div>
+                    <h2 class="project__sub__title">Game</h2>
+                  
+                    <button class="btn btn_project btn__1"><a href="https://spsingh07.github.io/Guess-My-Number/">Live Demo</a></button>
+                
+                </div>
+                <div class="projects__section">
+                    <div class="artical__container">
+                        <img src="images/to do list.png" alt="To do list Website">
+                    </div>
+                    <h2 class="project__sub__title">To-Do</h2>
+                   
+                    <button class="btn btn_project btn__1"><a href="https://spsingh07.github.io/To-do-list/">Live Demo</a></button>
+                    
+                </div>
+                <div class="projects__section">
+                    <div class="artical__container">
+                        <img src="images/weather.png" alt="Weather API Website">
+                    </div>
+                    <h2 class="project__sub__title">Weather</h2>
+                    
+                    <button class="btn btn_project btn__1"><a href="https://spsingh07.github.io/Weather-API/">Live Demo</a></button>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <p class="contact__p1">Get In Touch</p>
+        <h1 class="contact__title">Contact Me</h1>
+        <div class="contact__details__section">
+            <div class="contact__info__section">
+                <img src="images/email.png" alt="Email logo" class="logo contact__img">
+                <p><a href="mailto:ag594766@gmail.com">ag594766@gmail.com</a></p>
+            </div>
+            <div class="contact__info__section">
+                <img src="images/linkedin.png" alt="linkedin Profile" class="logo contact__img">
+                <p><a href="https://in.linkedin.com/" target="_blank">linkedin Profile</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div class="footer-links">
+                <ul  class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <p>Copyright &copy; 2024 Aryan Gupta. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
